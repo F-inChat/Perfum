@@ -28,6 +28,7 @@
     background-color: var(--White);
     border-radius: 1em;
     overflow: hidden;
+    max-width: 600px;
    
 }
 .description {
@@ -91,7 +92,7 @@
     .main-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        width: 540px;}
+        }
 }
 
 
