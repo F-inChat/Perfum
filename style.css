@@ -28,7 +28,7 @@
     background-color: var(--White);
     border-radius: 1em;
     overflow: hidden;
-    max-width: 570px;
+    max-width: 600px;
    
 }
 .description {
@@ -38,6 +38,7 @@
     gap: var(--spacing);
 }
 .description>:first-child {
+    line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: 0.3em;
 }
@@ -55,7 +56,7 @@
     align-items: center;
 }
 .prices .price {
-    font-size: 2.1rem;
+    font-size: 2rem;
     color: var(--Darkcyan);
     font-family: var(--ff-special);
     font-weight: var(--fw-special);
